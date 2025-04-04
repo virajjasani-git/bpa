@@ -1,0 +1,58 @@
+{
+  "bpa-number": "BPA-0000001",
+  "id": "BPA176D7801F090067ED3DF80000028F",
+  "inventory org": "BRW",
+  "type": "Blanket Purchase Agreement",
+  "supplier site": { "gsl": "111111", "site-code": "222222" },
+  "ship to location": "989719",
+  "bill to location": "989719",
+  "currency": "USD",
+  "description": "SSO-223065982",
+  "Supplier Name": "RAFI GMBH AND CO KG (MFG-0004792)",
+  "mfg number": "MFG-0004792",
+  "title": "BPA 1",
+  "created": "2025-04-02T13:45:15Z",
+  "modified": "2025-04-02T14:45:15Z",
+  "owner": "virajjasani",
+  "organization": "Company Name",
+  "collabspace": "GEHC",
+  "state": "In Work",
+  "items": [
+    {
+      "sourcing": "single",
+      "number": "5482744",
+      "rev": "4",
+      "id": "D83859D440240000006FAD5C1DD10500",
+      "price": "2340.01",
+      "MOQ": 1000,
+      "allocation": "100",
+      "rank": "1",
+      "lead time": "15",
+      "COO": "Australia"
+    },
+    {
+      "sourcing": "dual",
+      "number": "6234015",
+      "rev": "4",
+      "id": "B8F8FCD026A3000000DD8B5CF39B0900",
+      "price": "1000.20",
+      "MOQ": 100,
+      "allocation": "100",
+      "rank": "1",
+      "lead time": "20",
+      "COO": "Australia"
+    },
+    {
+      "sourcing": "single",
+      "number": "5786254",
+      "rev": "1",
+      "id": "CADF07A1C721000000BA6D59184D0E00",
+      "price": "500.20",
+      "MOQ": 100,
+      "allocation": "100",
+      "rank": "1",
+      "lead time": "20",
+      "COO": "China"
+    }
+  ]
+}

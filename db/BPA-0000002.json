@@ -1,0 +1,34 @@
+{
+  "bpa-number": "BPA-0000002",
+  "id": "BPA276D7801F090067ED3DF80000028F",
+  "inventory org": "BRW",
+  "type": "Blanket Purchase Agreement",
+  "supplier site": { "gsl": "222222", "site-code": "102" },
+  "ship to location": "989719",
+  "bill to location": "512780",
+  "currency": "INR",
+  "description": "SSO-223065982",
+  "Supplier Name": "XEROX TECHNOLOGY SERVICES GDS (MFG-0010705)",
+  "mfg number": "MFG-0010705",
+  "title": "BPA 2",
+  "created": "2025-03-02T13:45:15Z",
+  "modified": "2025-03-02T14:45:15Z",
+  "owner": "virajjasani",
+  "organization": "Company Name",
+  "collabspace": "GEHC",
+  "state": "Review",
+  "items": [
+    {
+      "sourcing": "single",
+      "number": "GC200422",
+      "rev": "3",
+      "id": "D83859D45D6100008095335A104E0B00",
+      "price": "100500.01",
+      "MOQ": 546,
+      "allocation": "100",
+      "rank": "1",
+      "lead time": "27",
+      "COO": "India"
+    }
+  ]
+}

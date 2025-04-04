@@ -1,0 +1,46 @@
+{
+  "bpa-number": "BPA-0000004",
+  "id": "BPA476D7801F090067ED3DF80000028F",
+  "inventory org": "UDS",
+  "type": "Blanket Purchase Agreement",
+  "supplier site": { "gsl": "908762", "site-code": "103" },
+  "ship to location": "147002",
+  "bill to location": "147002",
+  "currency": "USD",
+  "description": "SSO-223065982",
+  "Supplier Name": "HIDEX OY (MFG-0031263)",
+  "mfg number": "MFG-0031263",
+  "title": "BPA 4",
+  "created": "2025-04-01T11:45:15Z",
+  "modified": "2025-04-01T12:45:15Z",
+  "owner": "virajjasani",
+  "organization": "Company Name",
+  "collabspace": "GEHC",
+  "state": "Complete",
+  "items": [
+    {
+      "sourcing": "dual",
+      "number": "5128754-2",
+      "rev": "8",
+      "id": "B8F8FCD0627B0000005FD857D62D0300",
+      "price": "10000",
+      "MOQ": 1100,
+      "allocation": "40",
+      "rank": "2",
+      "lead time": "15",
+      "COO": "China"
+    },
+    {
+      "sourcing": "transfer",
+      "number": "5759212",
+      "rev": "2",
+      "id": "D83859D48E85000000027E58A21E0500",
+      "price": "6800",
+      "MOQ": 110,
+      "allocation": "100",
+      "rank": "1",
+      "lead time": "25",
+      "COO": "Mexico"
+    }
+  ]
+}
