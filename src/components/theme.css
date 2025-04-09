@@ -1,0 +1,302 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+}
+
+/* BPA Details Container */
+.bpa-details-container {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%; /* Ensure it takes full width */
+  max-width: 1200px; /* Limit the maximum width */
+  overflow-x: auto; /* Add horizontal scrolling if content overflows */
+}
+
+/* Toolbar */
+.bpa-toolbar {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 16px;
+}
+
+.bpa-toolbar-button {
+  margin-left: 8px;
+}
+
+/* BPA Title */
+.bpa-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #1976d2;
+  margin-bottom: 16px;
+}
+
+/* BPA Properties */
+.bpa-properties {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 24px;
+  padding: 16px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  white-space: nowrap; /* Prevent text wrapping */
+}
+
+.bpa-property {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+
+.bpa-property-name {
+  font-weight: bold;
+  color: #333;
+  flex: 1;
+  white-space: nowrap; /* Prevent text wrapping */
+}
+
+.bpa-property-value {
+  color: #555;
+  flex: 2;
+  text-align: right;
+  white-space: nowrap; /* Prevent text wrapping */
+  overflow: hidden;
+  text-overflow: ellipsis; /* Add ellipsis for overflowed text */
+}
+
+/* Line Items */
+.bpa-line-items-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+
+.bpa-table-container {
+  border-radius: 8px;
+  overflow-x: auto; /* Add horizontal scrolling for tables */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%; /* Ensure it takes full width */
+  max-width: 1200px; /* Limit the maximum width */
+}
+
+.bpa-table-container thead {
+  background-color: #004d80; /* Solid blue background */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add subtle shadow for a professional look */
+}
+
+.bpa-table-container thead th {
+  color: white; /* White font color */
+  font-weight: bold;
+  padding: 8px 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.bpa-table-row:hover {
+  background-color: #f1f1f1;
+}
+
+/* Filter Input */
+.bpa-filter-input {
+  width: 200px;
+  margin-right: 16px;
+}
+
+/* Line Items styles */
+.line-items-title {
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.line-items-table-container {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.line-items-table thead {
+  background-color: #004d80; /* Solid blue background */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add subtle shadow for a professional look */
+}
+
+.line-items-table thead th {
+  color: white; /* White font color */
+  font-weight: bold;
+  padding: 8px 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.line-items-table th {
+  font-weight: bold;
+}
+
+line-items-table tr:nth-of-type(odd) {
+  background-color: #f9f9f9;
+}
+
+line-items-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Line Items Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 8px 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #004d80; /* Solid blue background */
+  color: white; /* White font color */
+  font-weight: bold;
+  padding: 8px 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add subtle shadow for a professional look */
+}
+
+tr:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Home Page (BPA List) */
+.bpa-list-container {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%; /* Ensure it takes full width */
+  max-width: 1200px; /* Limit the maximum width */
+  overflow-x: auto; /* Add horizontal scrolling if content overflows */
+}
+
+.bpa-toolbar {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 16px;
+}
+
+.bpa-toolbar-button {
+  margin-left: 8px;
+}
+
+.bpa-list-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #1976d2;
+  margin-bottom: 16px;
+  white-space: nowrap; /* Prevent text wrapping */
+}
+
+.bpa-list {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.bpa-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+}
+
+.bpa-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.bpa-link {
+  text-decoration: none;
+  color: #1976d2;
+  font-weight: bold;
+}
+
+.bpa-link:hover {
+  text-decoration: underline;
+}
+
+.bpa-card-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #1976d2;
+  margin-bottom: 8px;
+}
+
+.bpa-card-detail {
+  font-size: 14px;
+  color: #555;
+  margin: 4px 0;
+}
+
+.bpa-view-icon {
+  color: #1976d2;
+  transition: transform 0.2s;
+}
+
+.bpa-view-icon:hover {
+  transform: scale(1.2);
+}
+
+/* Create BPA Form Container */
+.create-bpa-container {
+  padding: 16px;
+}
+
+/* Paper Styling */
+.create-bpa-paper {
+  padding: 24px;
+  margin-bottom: 24px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* BPA Properties Vertical Layout */
+.bpa-properties-vertical {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+/* Line Items Container */
+.line-items-container {
+  margin-bottom: 16px;
+}
+
+.line-item-inputs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.line-item-inputs-horizontal {
+  display: flex;
+  gap: 16px;
+  flex-wrap: nowrap;
+  align-items: center;
+}
